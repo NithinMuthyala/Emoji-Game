@@ -1,0 +1,55 @@
+/* Write your code here. */
+.nav-bar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+/* @media screen and (max-width: 576px) {
+  .nav-bar {
+    justify-content: flex-start;
+    padding: 0px;
+    width: 100%;
+  }
+} */
+.emoji-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-container {
+  display: flex;
+}
+.logo {
+  width: 75px;
+  height: 75px;
+}
+.score-container {
+  display: flex;
+}
+
+.score-card {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+@media screen and (min-width: 576px) {
+  .score-card {
+    padding-right: 13px;
+  }
+}
+
+.totalscore {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.displaynone {
+  display: none;
+}
